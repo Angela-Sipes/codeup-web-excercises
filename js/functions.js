@@ -40,7 +40,7 @@ var random = Math.floor((Math.random() * 3) + 1);
 /*
 
  /*
- * TODO:
+ *
  * Create a function called 'isTwo' tha takes a number as a parameter.
  * The function should return a boolean value based on whether or not the passed
  * number is the number 2.
