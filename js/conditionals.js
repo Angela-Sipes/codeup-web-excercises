@@ -19,6 +19,27 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
+function analyzeColorIf(colorName) {
+    if (colorName === "blue") {
+        return "blue is the color of the sky";
+    }
+    else if (colorName === "red") {
+        return "Strawberries are red";
+    }
+    else if (colorName === "cyan") {
+        return "I don't know anything about cyan";
+    }
+    else {
+        return "I don't know anything about your color - " + colorName;
+    }
+}
+// alert (analyzeColor("blue"));
+// alert (analyzeColor("red"));
+// alert (analyzeColor("cyan"));
+// alert (analyzeColor("green"));
+
+
+
 
 // Don't change the next two lines!
 // These lines create two variables for you:
@@ -28,12 +49,6 @@
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
 /**
-
-
-
-
-
-
 
 
 

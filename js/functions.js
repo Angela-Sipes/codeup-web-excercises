@@ -17,10 +17,9 @@
  * console.log 'helloMessage' to check your work*
  */
 
-var helloMessage = sayHello(name Angela)
+- console.log(sayHello ("Angela"));
+var helloMessage =ssay hello("Angela")
 
-console.log(sayHello ("Angela"));
-console.log(helloMessage);
 
 
  /* Store your name as a string in a variable named 'myName', and pass that
