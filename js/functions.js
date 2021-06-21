@@ -8,7 +8,8 @@
  * Example
  * sayHello("codeup") // returns "Hello, codeup!"*/
 
- function sayHello(name) {return "Hello," + name +"!";
+ function sayHello(name) {
+     return "Hello, " + name + "!";
 }
 
 
@@ -17,10 +18,10 @@
  * console.log 'helloMessage' to check your work*
  */
 
-- console.log(sayHello ("Angela"));
-var helloMessage =ssay hello("Angela")
+console.log(sayHello ("Angela"));
+var helloMessage = sayhello(name: "Angela");
 
-
+console.log(HelloMessage);
 
  /* Store your name as a string in a variable named 'myName', and pass that
  * variable to the 'sayHello' function. You should see the same output in the
@@ -31,16 +32,13 @@ var myName = "Angela";
 helloMessage= sayHello(name Angela)
 console.log(sayHello(myName));
 
+/*Don't modify the following line, it generates a random number between 1 and 3
+and stores it in a variable named random*/
 
-
-/* Don't modify the following line, it generates a random number between 1 and 3
-and stores it in a variable named random
 var random = Math.floor((Math.random() * 3) + 1);
-/*
 
- /*
- *
- * Create a function called 'isTwo' tha takes a number as a parameter.
+
+/* * Create a function called 'isTwo' tha takes a number as a parameter.
  * The function should return a boolean value based on whether or not the passed
  * number is the number 2.
  *
@@ -122,8 +120,8 @@ function applyDiscount(price, discountPercentage){
 
 var increment = function(number) {
      return number + 1;
-};1
+};
 
- var two = increment(number1);
+ var two = increment(number 1);
 
  console.log(two);
