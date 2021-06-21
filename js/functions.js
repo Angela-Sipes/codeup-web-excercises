@@ -63,7 +63,7 @@ console.log(isTwo(random));
 
 
 /**
- * TODO:
+
  * Create a function named 'calculateTip' to calculate a tip on a bill at a
  * restaurant. The function should accept a tip percentage and the total of the
  * bill, and return the amount to tip
@@ -88,11 +88,16 @@ function calculateTip (tipPercentage, totalBill){
 }
 console.log
 /**
- * TODO:
+
  * Use prompt and alert in combination with your calculateTip function to
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
+function calculateTip() {
+    var totalBill = prompt("How much is the bill total?")
+    var percentTip = prompt("How much would you like to tip?")
+    return
+} alert("Desired tip amount: + (totalBill * percentTip));
 
 /**
  *
