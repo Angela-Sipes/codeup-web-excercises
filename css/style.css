@@ -1,4 +1,61 @@
-.fancy-header {
-    color: purple;
-
+@font-face {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
 }
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellowgreen;
+    background-image: url(../images/pexels-photo-196644.jpeg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+}
+header {
+    margin-top: 45px;
+    color: orangered;
+    text-decoration-line: underline;
+}
+
+ul, ol {
+    list-style: upper-roman; align-self;
+}
+
+section#co-vision img:first-of-type {
+    margin-bottom: 8px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: thick solid black;
+    font-size: 1.4em;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th {
+    border: thick dotted darkblue;
+    padding: 15px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:hover {
+    background: bisque;
+    color: orangered;
+}
+
+
