@@ -118,3 +118,15 @@ section:nth-of-type(5) {
     width: 2em;
     height: 2em;
 }
+
+section:nth-of-type(6) {
+    background: coral;
+    height: 14em;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grey-box:nth-of-type(odd) {
+    height: 4em;
