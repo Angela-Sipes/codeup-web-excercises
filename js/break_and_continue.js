@@ -11,13 +11,13 @@
 // }
 
 // var oddNumber = parseInt(prompt("Give me an odd number between 1 and 50 please?"));
-var oddNumber = parseInt(prompt("Give me an odd number between 1 and 50 please?"));
+let oddNumber = parseInt(prompt("Give an odd number between 1 and 50?"));
 
 function isNumberEven(num) {
     return num % 2 === 0;
     // if (num % 2 === 0) {
     //     return true;
-    // } else {
+    // } else {1
     //     return false;
     // }
 }
@@ -30,12 +30,12 @@ while(true) {
     if (!isNumberEven(oddNumber) && isNumberInRange(oddNumber)){
         break;
     }
-    oddNumber = parseInt(prompt("Give me an odd number between 1 and 50 please?"));
+    oddNumber = parseInt(prompt("Give an odd number between 1 and 50?"));
 }
 
 for (var i = 1; i < 50; i+=2) {
     if (i === oddNumber) {
-        console.log("Yikes! Skipping number: " + oddNumber);
+        console.log("oh no! Skipping number: " + oddNumber);
         continue;
     }
     console.log(i);
