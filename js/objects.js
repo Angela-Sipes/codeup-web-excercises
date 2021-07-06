@@ -1,4 +1,4 @@
-function() {
+function person() {
     "use strict";
 
     /**
@@ -8,13 +8,14 @@ function() {
      * `person`.
      *
      * Example:
-     *  > consol
+     console
      * e.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
 
 let person = {}new Object();
-
+console.log(person.firstName) "Angela"
+console.log(person.lastname)
 
 
 
@@ -47,7 +48,6 @@ console.log(person.sayHello());
      */
 
 
-
     let shopper = [
         {name: 'Cameron', amount: 180},
         {name: 'Ryan', amount: 250},
@@ -67,7 +67,7 @@ shopper.forEach(function(shopper) {
         console.log(shopper)
         }
 
-}
+
 //  write a discount function
 
 
@@ -136,4 +136,4 @@ shopper.forEach(function(shopper) {
      *   `showBookInfo` function.
      */
 
-})();
+}
