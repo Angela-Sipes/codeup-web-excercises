@@ -43,12 +43,12 @@ var personOne = {
     lastName: "floopertan",
     ageInYears: 34,
     heightInInches: 65,
-    getFullName: function (){
-
-        return this.firstName + " " + this.lastName
+    getFullName: function(){
+        return this.firstName + " " + this.lastName;
     }
-
 }
+
+
 console.log(personOne.getFullName())
 // TODO: Create a method on the object down below named getNicelyFormattedFullName that when called returns the
 //  users full name with both first letters in the names being capitalized look at example down below for more reference.
