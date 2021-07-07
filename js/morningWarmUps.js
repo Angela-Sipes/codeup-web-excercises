@@ -1,9 +1,9 @@
 // TODO: Create a function named countSpaces that accepts a string and returns the total number of spaces in the string.
 
-function countSpaces(str){
-if typeof
-
-}
+// function countSpaces(str){
+// if typeof
+//
+// }
 
 
 
